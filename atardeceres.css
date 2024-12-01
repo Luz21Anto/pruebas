@@ -1,0 +1,114 @@
+body {
+    background-color: lightseagreen;
+    font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.parte-uno {   
+    padding: 0vw 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parte-uno h1{
+    text-align: start;
+    font-size: 4rem;
+    color: beige;
+    font-size: 32px;
+    width: fit-content;
+    transition: font-size 0.3s ease;
+}
+
+.parte-uno h1:hover {
+    font-size: 48px;
+}
+
+.atardecer-container {
+    background-color: beige;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.1);
+    min-width: fit-content;
+}
+
+.Atardecer {
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 4px 18px 0px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.Atardecer:hover {
+    background-color: bisque;
+    .info_atardecer-container{
+        background-color: darksalmon;
+        transform: scale(1.03);
+    }
+    cursor: pointer;
+}
+
+.Atardecer h2{
+    margin: 10px 0px;
+}
+
+.info_atardecer-container {
+    background-color: bisque;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.info_atardecer_titulo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.img_atardecer {
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img_estrella {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.parte-dos {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+form {
+    padding: 1rem;
+    background-color: honeydew;
+    border-radius: 20px;
+}
+
+.form_grupo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form_grupo label{
+    margin-right: 10px;
+    width: 100px;
+}
+
+.form_grupo_dif {
+    display: flex;
+    flex-direction: column;
+}
